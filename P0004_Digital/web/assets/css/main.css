@@ -1,0 +1,186 @@
+
+.site-wrapper
+{
+  
+    background-image: url(../img/bg.jpg) ;
+    background-repeat: repeat-y;
+    width: 886px;
+    height: auto;
+    margin: 0 auto;    
+}
+
+.title-wrapper
+{
+    background-image: url(../img/header.jpg);
+    width: 886px;
+    height: 78px;
+    font-weight: bold;
+}
+.title-wrapper h3
+{
+    padding-left: 80px;
+    padding-top: 5px;
+    color: white;
+    margin-top: 0px;
+}
+.tittle
+{
+    font-size: 18px;
+    color: #42554e;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.tittle a{
+    
+}
+.navbar-wrapper
+{
+
+    background-image: url(../img/menu.jpg);
+    width: 886px;
+    height: 32px;
+}
+.navbar-wrapper a
+{
+
+    padding-left: 80px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 32px;
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.content-wrapper
+{
+    border: 1px solid black;
+    width: 760px;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+}
+
+
+.image img
+{
+    width: 400px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.image_search img
+{
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+.post-wrapper{
+    padding-bottom: 40px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.left
+{
+
+    width: 485px;
+    padding: 20px;
+    border-right: dotted 2px;
+    border-color: #e0e0e0;    
+}
+/*.left a
+{
+    text-decoration: none;
+    color: #42554e;
+    font-weight: bold;
+}*/
+
+.signature
+{
+    float:right;
+    color: #42554e;
+    font-size: 10px;
+    margin-top: 5px;
+}
+.icon1{
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    background-image: url(../img/comment.gif);
+    background-repeat: no-repeat;
+}
+.icon2{
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    background-image: url(../img/timeicon.gif);
+    background-repeat: no-repeat;
+}
+
+.right
+{
+    width: 230px;
+    height: auto;
+    padding: 10px;
+}
+.searchBox
+{
+    border: dashed 1px;
+}
+.searchButton
+{
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    color: #999999;
+}
+
+.newst
+{
+    width: 100%;
+    height: auto;
+    font-size: 13px;
+}
+
+.titleNews
+{
+    color: #42554e;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.lastArticles
+{
+    padding-bottom: 20px;
+}
+.lastArticles a
+{
+    color: #42554e;
+}
+
+
+.footer
+{
+    background-image: url(../img/footer.jpg);
+    width: 887px;
+    height: 78px;
+}
+
+.text_search
+{   
+    font-size: 13px;
+}
+
+.paging
+{
+    margin-top: 40px;
+    text-align: center;
+
+}
+.active{
+    color: red !important;
+    pointer-events: none;
+}

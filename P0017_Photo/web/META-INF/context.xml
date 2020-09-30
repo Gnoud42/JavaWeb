@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/P0017_Photo">
+    <Environment name="DB_HOSTNAME" type="java.lang.String" value="localhost"/>
+    <Environment name="DB_PORT" type="java.lang.String" value="1433"/>
+    <Environment name="DB_USERNAME" type="java.lang.String" value="sa"/>
+    <Environment name="DB_PASSWORD" type="java.lang.String" value="123456"/>
+    <Environment name="DB_DATABASE_NAME" type="java.lang.String" value="P0017_Photo"/>
+    <Environment name="IMG_FOLDER" type="java.lang.String" value="assets/image/"/>
+</Context>
+

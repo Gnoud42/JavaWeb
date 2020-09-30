@@ -1,0 +1,375 @@
+.container{
+    position: relative;
+}
+.link{
+    background-color: black;
+    height: 40px;
+    padding-left: 230px;
+    padding-top: 16px;
+}
+
+.link a{
+    color: white;
+    padding-left: 15px; 
+    text-decoration: none;
+    font-size: 20px;
+    border-left: 1px white solid;
+    font-family: sans-serif;
+}
+
+.logo{
+    margin-top: 10px;
+}
+.title{
+    height: 130px; 
+    margin-left: 10px
+}
+
+.title a{
+    text-decoration: none;
+}
+
+.title img{
+    margin-left: -108px;;
+
+}
+
+.title h2{
+    color: white;
+    padding-left: 308px;
+    margin-top: auto;
+}
+
+.webTitle{
+    padding-left: 324px;
+    margin-top: 10px;
+}
+.webTitle a{
+    font-size: 30px;
+    margin-top: 30px;
+    font-size: 40px;
+    color: white;
+    text-decoration: underline;
+}
+/*.content-wrapper{
+    background: url("../img/bg.png");
+    background-color: #aa4043;
+    padding-bottom: 130px;
+}*/
+.header{
+    background-color: #722f31;
+}
+.left{
+
+    width: 70%;
+}
+.content-wrapper{
+    display: flex;
+    background: url("../img/bg.png");
+    background-color: #aa4043;
+    padding-bottom: 130px;
+}
+.gallery{
+    margin-right: 50px; 
+    float: left;
+    margin-bottom: 50px;
+}
+.main-img img{
+    margin-left: 230px;
+    margin-top: 30px;
+}
+
+.main-img p{
+    color: white;
+    margin-left: 230px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.viewgallery{
+    color: white;
+    font-size: 25px;
+}
+.about_me{
+    color: white;
+    font-size: 30px;
+    margin-left: 175px;
+    margin-bottom: 20px;
+}
+
+.aboutText{
+    color: white;
+    margin-left: 175px;
+    font-size: 20px;
+}
+
+.description{
+    color: white;
+    font-size: 20px;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+    padding-left: 230px;
+}
+table-gl {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+    padding-left: 145px;
+}
+
+.about-me{
+    color: white;
+    font-size: 30px;
+    margin-left: 231px;
+    margin-bottom: 20px;
+}
+
+.about-text{
+    color: white;
+    margin-left: 231px;
+    font-size: 20px;
+}
+
+.title-gallery{
+    color: white;
+    font-size: 30px;
+    padding-left: 231px;
+    padding-top: 50px;
+}
+.slide{
+    margin-left: 228px;
+    margin-top: 30px;
+    margin-right: 35px;
+    margin-bottom: 50px;
+}
+
+
+.title-contact{
+    color: white;
+    font-size: 30px;
+    margin-left: 225px;
+    margin-top: 50px;
+}
+
+.detail-contact{
+    color: white;
+    font-size: 20px;
+    margin-left: 225px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    margin-left: -9px;
+
+}
+
+.map{
+    margin-bottom: 100px;
+    margin-left: 225px;
+}
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+}
+
+/* Hide the images by default */
+.myslides {
+    display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    top: 40%;
+    width: auto;
+    padding: 10px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    text-align: center;
+    -webkit-user-select: none;
+
+
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+
+    top: 0;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column {
+    padding: 29px;
+    float: left;
+    width: 16.66%;
+
+}
+
+.error{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+}
+/*right*/
+.right{
+    background-color: #aa4043;
+    width: 210px;
+    height: 125px;
+    display: inline-block;
+    float: left;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.29);
+    margin-top: 32px;
+
+}
+.share-box{
+
+    font-size: 20px;
+    font-weight: inherit;
+
+    border-bottom: 0 solid #000;
+    padding: 0px 15px;
+    margin-top: -5px;
+
+}
+.content-share span{
+    text-decoration: underline;
+}
+
+.share-page h4{
+
+    color: white;
+}
+.footer-counter{
+    background-color: black;
+    clear: both; 
+    float: right;
+    margin-right: 200px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.footer-counter-item{
+    border:solid 0 #000;
+    background: white;
+    font-size: 14.4px;
+    font-weight: 700;
+    box-shadow: 0 1px 2px #595959;
+    border-radius: 4px;
+    padding: 2px 2px 1px;
+    margin: 3px 2px 0 0;
+    float: left;
+    line-height: 14.4px;
+    text-align: center;
+    width: 10px;
+    position: relative;
+    color: #000;
+    margin-bottom: 5px;
+    text-decoration: line-through;
+}
+footer{
+    background-color: #303030;
+    height: 80px;
+}
+
+.link .active {
+    text-decoration: underline; 
+    color: greenyellow;
+}
+
+.gallery-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 230px;
+}
+
+.gallery-element {
+    max-height: 400px;
+    width: 210px;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 20px;
+    margin-right: 30px;
+}
+
+.gallery-title {
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+}
+
+.gallery-title a {
+    color: white;
+
+}
+
+.gallery-image {
+
+}
+
+.gallery-description {
+    color: white;
+}
+
+.image-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 230px;
+}
+
+.image {
+    margin-left: 10px;
+    opacity: 40%;
+}
+
+.active {
+    opacity: 100%;
+}
+
+.image:hover {
+    opacity: 100%;
+}
+.shortdes{
+    padding-left: 231px;
+    margin-top: 10px;
+    font-size: 25px;
+
+}
